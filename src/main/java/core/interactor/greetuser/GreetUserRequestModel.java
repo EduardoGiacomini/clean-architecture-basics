@@ -1,15 +1,16 @@
 package core.interactor.greetuser;
 
+import core.entity.User;
 import core.protocol.RequestModel;
 
 public class GreetUserRequestModel implements RequestModel {
-    private final String userName;
+    private final User user;
 
-    public GreetUserRequestModel(String userName) {
-        this.userName = userName;
+    public GreetUserRequestModel(User user) {
+        this.user = user;
     }
 
-    public String getUserName() {
-        return this.userName;
+    public User getUser() {
+        return this.user;
     }
 }
