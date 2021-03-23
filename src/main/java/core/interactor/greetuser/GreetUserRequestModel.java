@@ -1,6 +1,6 @@
 package core.interactor.greetuser;
 
-import core.entity.User;
+import core.entity.user.User;
 import core.protocol.RequestModel;
 
 public class GreetUserRequestModel implements RequestModel {

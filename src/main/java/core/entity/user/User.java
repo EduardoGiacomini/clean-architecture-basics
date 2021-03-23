@@ -1,10 +1,12 @@
-package core.entity;
+package core.entity.user;
+
+import core.entity.user.language.Language;
 
 public class User {
     private final String name;
-    private final String language;
+    private final Language language;
 
-    public User(String name, String language) {
+    public User(String name, Language language) {
         this.name = name;
         this.language = language;
     }
@@ -13,7 +15,7 @@ public class User {
         return name;
     }
 
-    public String getLanguage() {
+    public Language getLanguage() {
         return language;
     }
 }
