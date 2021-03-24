@@ -18,16 +18,16 @@ public class GreetUserInteractorTest {
         User user = new User("Carlos", new PortugueseLanguage());
         RequestModel request = new GreetUserRequestModel(user);
         GreetUserResponseModel response = (GreetUserResponseModel) interactor.execute(request);
-        Assert.assertEquals("Olá Carlos", response.getMessage());
+        Assert.assertEquals("Olá, Carlos.", response.getMessage());
 
         user = new User("Eduard", new EnglishLanguage());
         request = new GreetUserRequestModel(user);
         response = (GreetUserResponseModel) interactor.execute(request);
-        Assert.assertEquals("Hi Eduard", response.getMessage());
+        Assert.assertEquals("Hi, Eduard.", response.getMessage());
 
         user = new User("Giacomini", new ItalianLanguage());
         request = new GreetUserRequestModel(user);
         response = (GreetUserResponseModel) interactor.execute(request);
-        Assert.assertEquals("Ciao Giacomini", response.getMessage());
+        Assert.assertEquals("Ciao, Giacomini.", response.getMessage());
     }
 }

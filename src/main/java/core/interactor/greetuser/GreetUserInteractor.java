@@ -10,7 +10,7 @@ public class GreetUserInteractor implements Interactor {
     public ResponseModel execute(RequestModel requestModel) {
         GreetUserRequestModel request = (GreetUserRequestModel) requestModel;
         User user = request.getUser();
-        String greetingMessage = user.getLanguage().greet() + " " + user.getName();
+        String greetingMessage = user.getLanguage().greet() + ", " + user.getName() + ".";
         return new GreetUserResponseModel(greetingMessage);
     }
 }
