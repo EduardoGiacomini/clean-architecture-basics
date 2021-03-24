@@ -13,4 +13,5 @@ Por exemplo, vamos saudar o usuário Carlos, um norte americano. Para isso, dado
 o programa deve retornar `Hi, Carlos.`.
 
 ### Referências
-- Curso básico sobre Clean Architecture: http://courses.craftsmanshipcounts.com/courses/clean-architecture-101
+- Curso básico sobre Clean Architecture: http://courses.craftsmanshipcounts.com/courses/clean-architecture-101.
+- Livro Orientação a Objetos e SOLID para Ninjas: https://www.casadocodigo.com.br/products/livro-oo-solid.
