@@ -1,5 +1,5 @@
 # Clean Architecture Basics
-Primeiro contato com a Clean Architecture.
+Estudos sobre Clean Architecture.
 
 ### Objetivos
 - Compreender a ideia principal da Clean Architecture (`core`) a partir de um desenvolvimento guiado à testes.
@@ -11,3 +11,6 @@ A tarefa é saudar um dado usuário usando a língua nativa desse usuário.
 
 Por exemplo, vamos saudar o usuário Carlos, um norte americano. Para isso, dado o usuário Carlos como entrada,
 o programa deve retornar `Hi, Carlos.`.
+
+### Referências
+- Curso básico sobre Clean Architecture: http://courses.craftsmanshipcounts.com/courses/clean-architecture-101
