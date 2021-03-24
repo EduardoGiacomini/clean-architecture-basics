@@ -7,7 +7,7 @@ Estudos sobre Clean Architecture.
 
 ### Caso de estudo
 Nesse projeto, eu trabalhei com um caso de estudo muito simples: como saudar pessoas que falam diferentes idiomas.
-A tarefa é saudar um dado usuário usando a língua nativa desse usuário.
+A tarefa é saudar um usuário usando a sua língua nativa.
 
 Por exemplo, vamos saudar o usuário Carlos, um norte americano. Para isso, dado o usuário Carlos como entrada,
 o programa deve retornar `Hi, Carlos.`.
